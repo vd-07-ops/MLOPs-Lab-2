@@ -1,0 +1,39 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+.env
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+
+# ---- VSCode / IDE ----
+.vscode/
+.idea/
+
+# ---- DVC ----
+# Ignore cache directories managed by DVC
+/.dvc/tmp/
+/.dvc/cache/
+
+# Ignore actual data & models (DVC will track them instead)
+data/
+models/
+
+# But keep the placeholder .gitignore files inside those dirs
+!data/raw/.gitignore
+!data/processed/.gitignore
+!models/.gitignore
+
+# ---- System ----
+.DS_Store
+Thumbs.db
