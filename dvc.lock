@@ -57,10 +57,18 @@ stages:
       size: 1679131
     - path: src/evaluate.py
       hash: md5
-      md5: 1a8c59f46c470af323ad295a8eeeda8c
-      size: 646
+      md5: ffc4938237df52cb3f065d1c00086a87
+      size: 1149
     outs:
     - path: experiments/results.json
       hash: md5
-      md5: e97b3efa285a3ad4a4223c637d3912db
+      md5: 14b945152c19286e8f7008c52d6c2534
       size: 77
+    - path: metrics.json
+      hash: md5
+      md5: 08c0a4b5c575938ed54056d7a9649313
+      size: 71
+    - path: plots/metrics.json
+      hash: md5
+      md5: d553182440a79a76546f8699f8e1f71c
+      size: 12367

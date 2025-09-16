@@ -26,3 +26,8 @@ stages:
       - data/processed/test.csv
     outs:
       - experiments/results.json
+    metrics:
+      - metrics.json
+
+    plots:
+      - plots/metrics.json
