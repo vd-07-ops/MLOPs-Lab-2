@@ -1,0 +1,4 @@
+dvc[all]         # DVC with all remotes (s3, gdrive, etc.)
+pyyaml           # to parse params.yaml
+pandas           # common for ML preprocessing
+scikit-learn     # ML models & metrics
