@@ -25,9 +25,8 @@ stages:
       - models/model.pkl
       - data/processed/test.csv
     outs:
-      - experiments/results.json
+      - experiments/results.json   # <-- DVC handles this now
     metrics:
-      - metrics.json
-
+      - metrics.json               # small summary metrics
     plots:
-      - plots/metrics.json
+      - plots/metrics.json         # training/eval curves
