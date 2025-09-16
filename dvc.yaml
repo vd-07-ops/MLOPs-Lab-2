@@ -24,9 +24,9 @@ stages:
       - src/evaluate.py
       - models/model.pkl
       - data/processed/test.csv
-    outs:
-      - experiments/results.json   # <-- DVC handles this now
     metrics:
-      - metrics.json               # small summary metrics
+      - experiments/results.json   # treat it as metrics instead of outs
+      - metrics.json
     plots:
-      - plots/metrics.json         # training/eval curves
+      - plots/metrics.json
+          # training/eval curves
